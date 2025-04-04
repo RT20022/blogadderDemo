@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Courgette&family=Itim&family=Kaushan+Script&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Sacramento&display=swap');
+
+
+h1 {
+    color: rgb(0, 0, 0) !important;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 5px;
+    word-spacing: 3px;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 18px;
+    /* margin-bottom: 20px; */
+    /* color: #c5a47e; */
+    color: rgb(101, 22, 48);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 300;
+}
+
+
+ul li:nth-child(1) {
+    background: url('../Images/about.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container-fluid p {
+    transition: 1s;
+    background: rgba(255, 255, 255, 0);
+    transform: scaleX(1) scaleY(0);
+}
+
+ul li:hover p {
+    background-color: rgb(49, 48, 48);
+    transition: 1s;
+    transform: scaleX(1) scaleY(1);
+}
+
+ul li:nth-child(2) {
+    background: url('../Images/vehicle.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+ul li:nth-child(3) {
+    background: url('../Images/externalCleaning.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+ul li:nth-child(4) {
+    background: url('../Images/gallery4.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+ul li:nth-child(5) {
+    background: url('../Images/hydotesting.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+ul li:nth-child(6) {
+    background: url('../Images/internalClean.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+ul li:nth-child(7) {
+    background: url('../Images/m6_1.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+ul li:nth-child(8) {
+    background: url('../Images/m6_2.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+ul li:nth-child(9) {
+    background: url('../Images/m6_3.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+ul li:nth-child(10) {
+    background: url('../Images/m6_4.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+ul li:nth-child(11) {
+    background: url('../Images/ultrasonic.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+ul li:nth-child(12) {
+    background: url('../Images/services2.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+ul li:nth-child(13) {
+    background: url('../Images/shotblast.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+ul li:nth-child(14) {
+    background: url('../Images/thickness.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+ul li:nth-child(15) {
+    background: url('../Images/type1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+ul li:nth-child(16) {
+    background: url('../Images/gallery1.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+ul li:nth-child(17) {
+    background: url('../Images/gallery2.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+ul li:nth-child(18) {
+    background: url('../Images/gallery3.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+footer h4{
+    font-family: "Courgette", cursive;
+    text-shadow: 2px 2px 14px black;
+}
+
+footer p{
+    color: black;
+}

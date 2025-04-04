@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Beau+Rivage&family=Cinzel+Decorative&family=Cinzel:wght@500&family=Emilys+Candy&family=Josefin+Sans&family=Julius+Sans+One&family=Lobster&family=Montez&family=Playfair+Display+SC&family=Rampart+One&family=Sail&family=Tangerine:wght@700&family=Tilt+Prism&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Courgette&family=Itim&family=Kaushan+Script&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Sacramento&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Gowun+Batang:wght@400;700&family=Pacifico&family=Shojumaru&family=Solway:wght@300;400;500;700;800&display=swap');
+
+.contactUsHead h1{
+    font-family: 'Montez', cursive;
+    /* color: #83e889; */
+    font-size:3rem;
+}
+
+.contactUsHead p{
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+a{
+    font-family: "Philosopher", sans-serif;   
+}
+
+i{
+    /* color: white; */
+    background-color:#83e889;
+    padding: 20px;
+    aspect-ratio: 3/3;
+    border-radius: 100%;
+}
+
+h6{
+    font-family: "Berkshire Swash", serif;
+    font-family: "Itim", cursive;
+    font-family: "Sacramento", cursive;
+    font-family: "Philosopher", sans-serif;
+    font-family: "Kaushan Script", cursive;
+    font-family: "Courgette", cursive;
+}
+
+.textBody{
+    font-family: "Berkshire Swash", serif;
+    /* font-family: "Itim", cursive; */
+    /* font-family: "Sacramento", cursive; */
+    /* font-family: "Philosopher", sans-serif; */
+    /* font-family: "Kaushan Script", cursive; */
+    /* font-family: "Courgette", cursive; */
+}
+
+
+.linkTree h1{
+    font-family: "Kaushan Script", cursive;
+    font-family: "Courgette", cursive;
+    color: #3ae697;
+}

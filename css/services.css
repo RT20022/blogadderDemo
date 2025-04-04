@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Courgette&family=Itim&family=Kaushan+Script&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Sacramento&display=swap');
+
+
+/* .ServiesHome{
+    clip-path: polygon(100% 0, 100% 100%, 50% 70%, 0 100%, 0 0);
+    background-color: aqua;
+    height: 100vh;
+    background: rgb(34,35,35);
+background: linear-gradient(180deg, rgba(34,35,35,0.8596230728619573) 16%, rgba(61,61,61,0.7503793753829657) 50%, rgba(74,74,74,0.5178863781840861) 100%) , url('../Images/services2.jpeg');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+} */
+
+.ServiesHome h1{
+    font-family: "Berkshire Swash", serif;
+    font-family: "Itim", cursive;
+    font-family: "Sacramento", cursive;
+    font-family: "Philosopher", sans-serif;
+    /* font-family: "Kaushan Script", cursive; */
+    /* font-family: "Courgette", cursive; */
+}
+
+.ServiesHome p{
+    font-family: "Berkshire Swash", serif;
+    font-family: "Itim", cursive;
+    font-family: "Sacramento", cursive;
+    font-family: "Philosopher", sans-serif;
+}
+
+
+.card{display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-body{
+    background-color:rgb(113 91 144);
+    border-radius: 50px 0px 50px 0px;
+    margin-bottom: 10px;
+    box-shadow: 10px 10px 0px #83e889;
+    height: 55vh;
+    width: 100%;
+}
+.process1{
+    background-image: url("../Images/trasn2.webp");
+/* background-position:; */
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.process2{
+    background-image: url("../Images/loading.jpeg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.process3{
+    background-image: url("../Images/about.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.process4{
+    background-image: url("../Images/shotblast.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.process5{
+    background-image: url("../Images/lounge.jpeg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.process6{
+    background-image: url("../Images/type1.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+
+.card-body p{
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}
+
+.card-body h5{
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.card_dotted_line{
+    height: 35px;
+    width: 2px;
+    border: 2px dashed black;
+    z-index:1;
+}
+
+.services h1{
+    font-family: "Berkshire Swash", serif;
+    font-family: "Itim", cursive;
+    font-family: "Sacramento", cursive;
+    font-family: "Philosopher", sans-serif;
+    font-family: "Kaushan Script", cursive;
+    font-family: "Courgette", cursive;
+    /* font-size: 3rem;
+    border: 4px solid cyan;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px; */
+}
+
+.services p{
+    font-family: "Berkshire Swash", serif;
+    font-family: "Itim", cursive;
+    font-family: "Sacramento", cursive;
+    font-family: "Philosopher", sans-serif;
+}
+
+footer h4{
+    font-family: "Courgette", cursive;
+    text-shadow: 2px 2px 14px black;
+}
+
+button{
+    font-family: "Courgette", cursive !important;
+    /* font-family: "Philosopher", sans-serif !important; */
+}
+
+.qualtiy1{
+    background: rgb(34,35,35);
+background: radial-gradient(circle, rgba(34, 35, 35, 0.384) 42%, rgba(61,61,61,0.7503793753829657) 79%, rgba(74,74,74,0.28259226053702735) 100%),url("../Images/m6_4.jpeg");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+.qualtiy2{
+    background: rgb(34,35,35);
+background: radial-gradient(circle, rgba(34, 35, 35, 0.397) 42%, rgba(61, 61, 61, 0.475) 79%, rgba(74,74,74,0.28259226053702735) 100%),url("../Images/m6_3.jpeg");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+
+.qualtiy3{
+    background: rgb(34,35,35);
+background: radial-gradient(circle, rgba(34, 35, 35, 0.413) 42%, rgba(61, 61, 61, 0.422) 79%, rgba(74,74,74,0.28259226053702735) 100%),url("../Images/m6_6.png");
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+}
+
+.qualtiy4{
+    background: rgb(34,35,35);
+background: radial-gradient(circle, rgba(34, 35, 35, 0.384) 42%, rgba(61,61,61,0.7503793753829657) 79%, rgba(74,74,74,0.28259226053702735) 100%),url("../Images/thickness.png");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+.qualtiy5{
+    background: rgb(34,35,35);
+background: radial-gradient(circle, rgba(34, 35, 35, 0.397) 42%, rgba(61, 61, 61, 0.475) 79%, rgba(74,74,74,0.28259226053702735) 100%),url("../Images/gallery2.jpeg");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+
+.qualtiy6{
+    background: rgb(34,35,35);
+background: radial-gradient(circle, rgba(34, 35, 35, 0.413) 42%, rgba(61, 61, 61, 0.422) 79%, rgba(74,74,74,0.28259226053702735) 100%),url("../Images/gallery1.jpeg");
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+}
+
+h4{
+    font-family: "Berkshire Swash", serif;
+    font-family: "Itim", cursive;
+    font-family: "Sacramento", cursive;
+    font-family: "Philosopher", sans-serif;
+    /* font-family: "Kaushan Script", cursive; */
+    /* font-family: "Courgette", cursive; */
+}

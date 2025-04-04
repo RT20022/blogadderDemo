@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Courgette&family=Itim&family=Kaushan+Script&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Sacramento&display=swap');
+
+
+nav ul li :hover {
+    color: white;
+    cursor: pointer;
+}
+
+
+.line1,
+.line2,
+.line3 {
+    height: 2px;
+    width: 30px;
+    background-color: white;
+    transition: .7s;
+}
+
+.line1_rotate {
+    transform: rotate(38deg) translate(0px, 10px);
+    transition: .7s;
+}
+
+.line2_rotate {
+    transform: rotate(-38deg) translate(0px, -10px);
+    transition: .7s;
+}
+
+.line3_hide {
+    opacity: 0;
+    transition: .7s;
+}
+
+.navbar-toggler {
+    border: 0px;
+}
+
+.navbar-brand {
+    font-family: "Kaushan Script", cursive;
+    color: white;
+}
+
+nav a {
+    font-family: "Berkshire Swash", serif;
+    font-family: "Itim", cursive;
+    font-family: "Sacramento", cursive;
+    font-family: "Philosopher", sans-serif;
+    /* font-family: "Kaushan Script", cursive; */
+    /* font-family: "Courgette", cursive; */
+}
+
+.capSetin {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    margin-left: 30px;
+    position: relative;
+    margin-top: 50px;
+}
+
+.carousel-inner .carousel-item {
+    height: 93vh;
+    margin-top: 30px;
+}
+
+.carousel-item:nth-child(1) {
+    background: rgb(244, 244, 244);
+    background: linear-gradient(180deg, rgba(244, 244, 244, 0) 70%, rgba(255, 255, 255, 1) 100%), url('../Images/about.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.carousel-item:nth-child(2) {
+    background: rgb(244, 244, 244);
+    background: linear-gradient(180deg, rgba(244, 244, 244, 0) 70%, rgba(255, 255, 255, 1) 100%), url('../Images/ultrasonic.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.carousel-item:nth-child(3) {
+    background: rgb(244, 244, 244);
+    background: linear-gradient(180deg, rgba(244, 244, 244, 0) 70%, rgba(255, 255, 255, 1) 100%), url('../Images/thickness.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.About {
+    transform: translateY(-200px);
+    border: 2px solid #83e889;
+}
+
+.About h1 {
+    font-family: "Berkshire Swash", serif;
+    font-family: "Itim", cursive;
+    font-family: "Sacramento", cursive;
+    font-family: "Philosopher", sans-serif;
+    /* font-family: "Kaushan Script", cursive; */
+    /* font-family: "Courgette", cursive; */
+}
+
+.ourClients {
+    transform: translateY(-100px);
+    /* border: 2px solid #83e889; */
+}
+
+.ourClients h2,
+p {
+    font-family: "Berkshire Swash", serif;
+    font-family: "Itim", cursive;
+    font-family: "Sacramento", cursive;
+    font-family: "Philosopher", sans-serif;
+    /* font-family: "Kaushan Script", cursive; */
+    /* font-family: "Courgette", cursive; */
+}
+
+footer h4 {
+    font-family: "Courgette", cursive;
+    text-shadow: 2px 2px 14px black;
+}
+
+
+marquee h6 {
+    animation: colorblink 1.5s infinite;
+    letter-spacing: 3px;
+    word-spacing: 7px;
+}
+
+marquee {
+    background-color: rgb(85, 202, 13);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1 !important;
+    height: 28px;
+    margin-top: 7px;
+}
+
+@keyframes colorblink {
+    0% {
+        color: rgb(255, 255, 255);
+    }
+
+    50% {
+        color: rgb(20, 20, 20);
+    }
+
+    100% {
+        color: white;
+    }
+}
+
+
+@media only screen and (max-width: 786px) {
+    .carousel-inner .carousel-item {
+        height: 70vh;
+        margin-top: 10px;
+    }
+
+    .capSetin {
+        height: 50%;
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+
+    .About {
+        transform: translateY(-200px);
+        border: 2px solid #83e889;
+        width: 94vw;
+    }
+
+    /* marquee{
+        height: 6.3vh;
+    margin-top: 0px;
+    } */
+    /* }
+    .carousel-item:nth-child(1) {
+    background: url('./Images/about.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+    
+    .carousel-item:nth-child(2) {
+        background: url('./Images/ultrasonic.png') !important;
+        background-size: cover;
+        background-position: 340px;
+        background-repeat: no-repeat;
+    }
+    
+    .carousel-item:nth-child(2)::before{
+        display: none !important;
+    }
+
+    .carousel-item:nth-child(3) {
+        background: url('./Images/thickness.png') !important;
+        background-size: cover;
+        background-position: 340px;
+        background-repeat: no-repeat;
+    }
+    
+    .carousel-item:nth-child(3)::before{
+        display: none !important;
+    } */
+
+    /* .ourClients img{
+        width: 100%;
+        height: 40px;
+    } */
+
+}

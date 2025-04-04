@@ -1,0 +1,129 @@
+.category1 {
+    height: 60vh;
+    background: rgb(29, 249, 249);
+    background: linear-gradient(180deg, rgba(249, 242, 244, 0.401) 0%, rgba(61, 61, 61, 0.471) 50%, rgba(74, 74, 74, 0.853) 100%), url("../Images/type1.png");
+    background-size: cover;
+    background-position: center;
+    transition: 1s;
+}
+
+.category1 h4 {
+    opacity: 1;
+    transform: translate(0px, -100px);
+    font-family: "Courgette", cursive;
+}
+
+.category2 {
+    height: 60vh;
+    background: rgb(29, 249, 249);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.401) 0%, rgba(61, 61, 61, 0.471) 50%, rgba(74, 74, 74, 0.853) 100%), url("../Images/type3.jpeg");
+    background-size: cover;
+    background-position: center;
+    transition: 1s;
+}
+
+.category2 h4 {
+    opacity: 1;
+    transform: translate(0px, -100px);
+    font-family: "Courgette", cursive;
+}
+
+.category3 {
+    height: 60vh;
+    background: rgb(29, 249, 249);
+    background: linear-gradient(180deg, rgba(255, 252, 253, 0.401) 0%, rgba(61, 61, 61, 0.471) 50%, rgba(74, 74, 74, 0.853) 100%), url("../Images/m6_1.jpeg");
+    background-size: cover;
+    background-position: center;
+    transition: 1s;
+}
+
+.category3 h4 {
+    opacity: 1;
+    transform: translate(0px, -100px);
+    font-family: "Courgette", cursive;
+}
+
+.category4 {
+    height: 60vh;
+    background: rgb(29, 249, 249);
+    background: linear-gradient(180deg, rgba(251, 249, 249, 0.401) 0%, rgba(61, 61, 61, 0.471) 50%, rgba(74, 74, 74, 0.853) 100%), url("../Images/vehicle.jpeg");
+    background-size: cover;
+    background-position: center;
+    transition: 1s;
+}
+
+.category4 h4 {
+    opacity: 1;
+    transform: translate(0px, -100px);
+    font-family: "Courgette", cursive;
+}
+
+.category5 {
+    height: 60vh;
+    background: rgb(29, 249, 249);
+    background: linear-gradient(180deg, rgba(255, 252, 253, 0.401) 0%, rgba(61, 61, 61, 0.471) 50%, rgba(74, 74, 74, 0.853) 100%), url("../Images/auto.png");
+    background-size: cover;
+    background-position: center;
+    transition: 1s;
+}
+
+.category5 h4 {
+    opacity: 1;
+    transform: translate(0px, -100px);
+    font-family: "Courgette", cursive;
+}
+
+.category6 {
+    height: 60vh;
+    background: rgb(29, 249, 249);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.401) 0%, rgba(61, 61, 61, 0.471) 50%, rgba(74, 74, 74, 0.853) 100%), url("../Images/truck.png");
+    background-size: cover;
+    background-position: -190px;
+    transition: 1s;
+}
+
+.category6 h4 {
+    opacity: 1;
+    transform: translate(0px, -100px);
+    font-family: "Courgette", cursive;
+}
+
+.category7 {
+    height: 60vh;
+    background: rgb(29, 249, 249);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.401) 0%, rgba(61, 61, 61, 0.471) 50%, rgba(74, 74, 74, 0.853) 100%), url("../Images/gallery3.jpeg");
+    background-size: cover;
+    transition: 1s;
+    background-repeat: no-repeat;
+}
+
+.category7 h4 {
+    opacity: 1;
+    transform: translate(0px, -100px);
+    font-family: "Courgette", cursive;
+}
+
+.categoryh2p h2 {
+    font-family: "Berkshire Swash", serif;
+    font-family: "Itim", cursive;
+    font-family: "Sacramento", cursive;
+    font-family: "Philosopher", sans-serif;
+    font-family: "Kaushan Script", cursive;
+    font-family: "Courgette", cursive;
+}
+
+.categoryh2p p {
+    font-family: "Philosopher", sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+    .category6 {
+        height: 60vh;
+        background: rgb(29, 249, 249);
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.401) 0%, rgba(61, 61, 61, 0.471) 50%, rgba(74, 74, 74, 0.853) 100%), url("../Images/truck.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        transition: 1s;
+    }
+}
